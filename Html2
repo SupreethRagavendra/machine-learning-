@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Concepts</title>
+</head>
+<body>
+    <h1>Artificial Intelligence Concepts</h1>
+    <p>Explore the fascinating world of AI!</p>
+
+    <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">
+        <img src="ai_concepts.jpg" alt="AI Concepts" width="300" height="200">
+    </a>
+</body>
+</html>
+

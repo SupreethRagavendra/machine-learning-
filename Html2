@@ -2,15 +2,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>AI Concepts</title>
+    <title>SR Video Games - Department Website</title>
+</head>
+<frameset rows="20%, 50%, 30%" cols="25%, 50%, 25%">
+    <frame src="header.html" name="header">
+    <frame src="games.html" name="games">
+    <frame src="contact.html" name="contact">
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+</frameset>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Header</title>
 </head>
 <body>
-    <h1>Artificial Intelligence Concepts</h1>
-    <p>Explore the fascinating world of AI!</p>
-
-    <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">
-        <img src="ai_concepts.jpg" alt="AI Concepts" width="300" height="200">
-    </a>
+    <h1>Welcome to SR Video Games</h1>
+    <p>Explore the latest and greatest video games!</p>
 </body>
 </html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Games</title>
+</head>
+<body>
+    <h2>Available Games</h2>
+    <ul>
+        <li><a href="game1.html" target="_blank">Game 1</a></li>
+        <li><a href="game2.html" target="_blank">Game 2</a></li>
+        <li><a href="game3.html" target="_blank">Game 3</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Contact</title>
+</head>
+<body>
+    <h2>Contact Information</h2>
+    <p>Email: contact@srvideogames.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Address: 1234 Game Street, City</p>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Game 1</title>
+</head>
+<body>
+    <h2>Game 1 - Title</h2>
+    <img src="game1_cover.jpg" alt="Game 1 Cover Image" width="200">
+    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id bibendum nisi. Ut bibendum nisl at turpis consectetur, quis condimentum nunc volutpat.</p>
+    <p>Price: $29.99</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Game 2</title>
+</head>
+<body>
+    <h2>Game 2 - Title</h2>
+    <img src="game2_cover.jpg" alt="Game 2 Cover Image" width="200">
+    <p>Description: Nullam tristique scelerisque justo vitae cursus. Nam vehicula massa id massa scelerisque, non cursus nisi sollicitudin. Aenean at odio quam.</p>
+    <p>Price: $39.99</p>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SR Video Games - Game 3</title>
+</head>
+<body>
+    <h2>Game 3 - Title</h2>
+    <img src="game3_cover.jpg" alt="Game 3 Cover Image" width="200">
+    <p>Description: Fusce posuere, nunc eu dignissim vulputate, urna tortor varius turpis, eu iaculis justo turpis nec nisl. Duis sit amet venenatis quam.</p>
+    <p>Price: $49.99</p>
+</body>
+</html>
+
 

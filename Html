@@ -2,29 +2,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Text Scroll Page</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Text Scroll Page</h1>
-
-    <h2 style="background-color: lightblue; padding: 10px;">Scrolling Text to the Right</h2>
-    <marquee direction="right" style="background-color: lightgray; padding: 10px;">
-        This text is scrolling to the right. You can see it moving in this direction.
-    </marquee>
-
-    <h2 style="background-color: lightgreen; padding: 10px;">Scrolling Text to the Left</h2>
-    <marquee direction="left" style="background-color: lightgray; padding: 10px;">
-        This text is scrolling to the left. You can see it moving in this direction.
-    </marquee>
-
-    <h2 style="background-color: lightcoral; padding: 10px;">Scrolling Text Upwards</h2>
-    <marquee direction="up" style="background-color: lightgray; padding: 10px; height: 100px;">
-        This text is scrolling upwards. You can see it moving in this direction.
-    </marquee>
-
-    <h2 style="background-color: lightsalmon; padding: 10px;">Scrolling Text Downwards</h2>
-    <marquee direction="down" style="background-color: lightgray; padding: 10px; height: 100px;">
-        This text is scrolling downwards. You can see it moving in this direction.
-    </marquee>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <input type="submit" value="Register">
+    </form>
 </body>
 </html>

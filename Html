@@ -1,34 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Form</title>
+  <title>jQuery Web Page</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-        <br>
-        <label for="gender">Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" required>
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <br>
-        <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob" required>
-        <br>
-        <input type="submit" value="Register">
-    </form>
+  <h1>Hello, jQuery Web Page!</h1>
+  <p>This is a simple web page created using jQuery.</p>
+  
+  <button id="changeText">Change Text</button>
+  
+  <script>
+    $(document).ready(function() {
+      // jQuery code here
+      $("#changeText").click(function() {
+        $("p").text("Text changed using jQuery!");
+      });
+    });
+  </script>
 </body>
 </html>

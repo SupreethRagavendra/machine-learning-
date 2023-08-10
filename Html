@@ -1,22 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>jQuery Web Page</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Game Image Animation</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111;
+  }
+  #gameImage {
+    width: 300px;
+    height: 300px;
+    position: relative;
+  }
+</style>
 </head>
 <body>
-  <h1>Hello, jQuery Web Page!</h1>
-  <p>This is a simple web page created using jQuery.</p>
+<div id="gameImage">
+  <img src="game-image.jpg" alt="Video Game" />
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    animateGameImage();
+  });
   
-  <button id="changeText">Change Text</button>
-  
-  <script>
-    $(document).ready(function() {
-      // jQuery code here
-      $("#changeText").click(function() {
-        $("p").text("Text changed using jQuery!");
-      });
+  function animateGameImage() {
+    const $gameImage = $("#gameImage");
+    $gameImage.animate({
+      left: "+=100",
+      top: "+=100",
+    }, 1000, "swing", function() {
+      $gameImage.animate({
+        left: "-=100",
+        top: "-=100",
+      }, 1000, "swing", animateGameImage);
     });
-  </script>
+  }
+</script>
 </body>
 </html>
